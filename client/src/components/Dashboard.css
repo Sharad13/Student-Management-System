@@ -1,0 +1,77 @@
+.box {
+  width: 100%;
+  border: 1px solid black;
+  display: inline-flex;
+  justify-content: left;
+  align-items: center;
+  padding: 10px;
+  border: rgb(80, 79, 79);
+  border-bottom: 1px solid grey;
+  border-radius: 4px;
+}
+.outerBox {
+  display: flex;
+  justify-content: space-between;
+}
+.rightBox {
+  width: 65%;
+  margin: auto;
+}
+.rBox {
+  width: 90%;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+  margin: auto;
+  box-shadow: 0 2.8px 2.2px rgba(255, 255, 255, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+.leftBox {
+  overflow: scroll;
+  width: 30%;
+  height: 550px;
+  margin-top: 10px;
+}
+.imgBlock {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  text-align: left;
+  /* border: 1px solid black; */
+}
+.imgBlock img {
+  width: 60px;
+  height: 70px;
+  margin-left: 20px;
+}
+.imgBlock p {
+  margin: 2px;
+  text-align: left;
+}
+.butns {
+  width: 29%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.butns button {
+  width: 60%;
+  margin: 5px;
+}
+.sort {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.sort button {
+  background-color: rgb(22, 25, 32) !important;
+  border: rgb(22, 25, 32) !important;
+}

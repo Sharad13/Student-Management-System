@@ -1,0 +1,24 @@
+.cardBox {
+  width: 40%;
+  margin: auto;
+  margin-top: 15px;
+}
+.cardBox p {
+  margin: 5px;
+}
+.header {
+  height: 30px !important;
+  padding: 5px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  font-size: 18px;
+}
+.btnn {
+  position: absolute;
+  left: 460px;
+  top: 45px;
+}
